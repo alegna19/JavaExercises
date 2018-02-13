@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e45d0a70-9b75-4a7a-9579-810f4f89519d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mitocode/java8/stream/StreamApp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mitocode/java8/map/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mitocode/java8/optional_nullpointerexeption/OptionalApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,38 +21,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CollectionApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mitocode/java8/collection_forEach/CollectionApp.java">
+      <file leaf-file-name="OptionalApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mitocode/java8/optional_nullpointerexeption/OptionalApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="222">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#usedForEach#0;class#CollectionApp#0" expanded="false" />
-                <element signature="method#usedRemoveIf#0;class#CollectionApp#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StreamApp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/mitocode/java8/stream/StreamApp.java">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/mitocode/java8/map/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+            <state relative-caret-position="89">
+              <caret line="79" column="24" lean-forward="false" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="docComment;method#filter#0;class#StreamApp#0" expanded="false" />
-                <element signature="method#filter#0;class#StreamApp#0" expanded="false" />
-                <element signature="docComment;method#sort#0;class#StreamApp#0" expanded="false" />
-                <element signature="method#sort#0;class#StreamApp#0" expanded="false" />
-                <element signature="docComment;method#transform#0;class#StreamApp#0" expanded="false" />
-                <element signature="method#transform#0;class#StreamApp#0" expanded="false" />
-                <element signature="e#1786#1845#0" expanded="false" />
-                <element signature="docComment;method#limit#0;class#StreamApp#0" expanded="false" />
-                <element signature="e#2512#2513#0" expanded="true" />
-                <element signature="e#2579#2580#0" expanded="true" />
+                <element signature="e#1463#1464#0" expanded="true" />
+                <element signature="e#1510#1511#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stream.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="806" column="59" lean-forward="true" selection-start-line="806" selection-start-column="59" selection-end-line="806" selection-end-column="59" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,8 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/mitocode/instanceof_exam/Biscuit.java" />
-        <option value="$PROJECT_DIR$/src/mitocode/instanceof_exam/Fruits.java" />
         <option value="$PROJECT_DIR$/src/mitocode/instanceof_exam/App.java" />
         <option value="$PROJECT_DIR$/src/mitocode/singleton/Country.java" />
         <option value="$PROJECT_DIR$/src/mitocode/singleton/Conexion.java" />
@@ -128,6 +127,8 @@
         <option value="$PROJECT_DIR$/src/mitocode/java8/collection_forEach/ColectionApp.java" />
         <option value="$PROJECT_DIR$/src/mitocode/java8/collection_forEach/CollectionApp.java" />
         <option value="$PROJECT_DIR$/src/mitocode/java8/stream/StreamApp.java" />
+        <option value="$PROJECT_DIR$/src/mitocode/java8/optional_nullpointerexeption/OptionalApp.java" />
+        <option value="$PROJECT_DIR$/src/mitocode/java8/map/App.java" />
       </list>
     </option>
   </component>
@@ -212,15 +213,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamApp">
-    <configuration name="AppWildImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="mitocode.generics.wildcards.*" />
+          <option name="PATTERN" value="mitocode.java8.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="mitocode.generics.wildcards.AppWildImpl" />
+      <option name="MAIN_CLASS_NAME" value="mitocode.java8.map.App" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -270,14 +271,14 @@
       <module name="DataStructure" />
       <envs />
     </configuration>
-    <configuration name="FunInterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MethodRef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="mitocode.java8.interface_funtional.*" />
+          <option name="PATTERN" value="mitocode.java8.method_reference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="mitocode.java8.interface_funtional.FunInterApp" />
+      <option name="MAIN_CLASS_NAME" value="mitocode.java8.method_reference.MethodRef" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -289,14 +290,14 @@
       <module name="DataStructure" />
       <envs />
     </configuration>
-    <configuration name="MethodRef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="OptionalApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="mitocode.java8.method_reference.*" />
+          <option name="PATTERN" value="mitocode.java8.optional_nullpointerexeption.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="mitocode.java8.method_reference.MethodRef" />
+      <option name="MAIN_CLASS_NAME" value="mitocode.java8.optional_nullpointerexeption.OptionalApp" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -408,19 +409,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FunInterApp" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MethodRef" />
-      <item index="2" class="java.lang.String" itemvalue="Application.AppWildImpl" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CollectionApp" />
-      <item index="4" class="java.lang.String" itemvalue="Application.StreamApp" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MethodRef" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CollectionApp" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StreamApp" />
+      <item index="3" class="java.lang.String" itemvalue="Application.OptionalApp" />
+      <item index="4" class="java.lang.String" itemvalue="Application.App" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.StreamApp" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CollectionApp" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MethodRef" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FunInterApp" />
-        <item index="4" class="java.lang.String" itemvalue="Application.AppWildImpl" />
+        <item index="0" class="java.lang.String" itemvalue="Application.App" />
+        <item index="1" class="java.lang.String" itemvalue="Application.OptionalApp" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StreamApp" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CollectionApp" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MethodRef" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +440,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="713" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -454,7 +454,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30452344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30452344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -490,27 +490,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/mitocode/singleton/Conexion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="111" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mitocode/instancia_static/Alumno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mitocode/singleton/Country.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mitocode/singleton/CountryDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -841,6 +820,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/mitocode/java8/stream/StreamApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;method#filter#0;class#StreamApp#0" expanded="false" />
+            <element signature="method#filter#0;class#StreamApp#0" expanded="false" />
+            <element signature="docComment;method#sort#0;class#StreamApp#0" expanded="false" />
+            <element signature="method#sort#0;class#StreamApp#0" expanded="false" />
+            <element signature="docComment;method#transform#0;class#StreamApp#0" expanded="false" />
+            <element signature="method#transform#0;class#StreamApp#0" expanded="false" />
+            <element signature="e#1786#1845#0" expanded="false" />
+            <element signature="docComment;method#limit#0;class#StreamApp#0" expanded="false" />
+            <element signature="e#2512#2513#0" expanded="false" />
+            <element signature="e#2579#2580#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/mitocode/java8/collection_forEach/CollectionApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38">
@@ -853,22 +852,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mitocode/java8/stream/StreamApp.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        <state relative-caret-position="130">
+          <caret line="806" column="59" lean-forward="true" selection-start-line="806" selection-start-column="59" selection-end-line="806" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mitocode/java8/optional_nullpointerexeption/OptionalApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;method#filter#0;class#StreamApp#0" expanded="false" />
-            <element signature="method#filter#0;class#StreamApp#0" expanded="false" />
-            <element signature="docComment;method#sort#0;class#StreamApp#0" expanded="false" />
-            <element signature="method#sort#0;class#StreamApp#0" expanded="false" />
-            <element signature="docComment;method#transform#0;class#StreamApp#0" expanded="false" />
-            <element signature="method#transform#0;class#StreamApp#0" expanded="false" />
-            <element signature="e#1786#1845#0" expanded="false" />
-            <element signature="docComment;method#limit#0;class#StreamApp#0" expanded="false" />
-            <element signature="e#2512#2513#0" expanded="true" />
-            <element signature="e#2579#2580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mitocode/java8/map/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="79" column="24" lean-forward="false" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+            <element signature="e#1510#1511#0" expanded="true" />
           </folding>
         </state>
       </provider>
