@@ -1,6 +1,7 @@
 package mitocode.java8.method_reference;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 
 /**
@@ -9,7 +10,7 @@ import java.util.Arrays;
  * enviarsen parámetros por que Java no implementa un tema conocido como Curriificación.
  * <p>
  * Currificación: currificar es transformar funciones en funciones mas simples y mas reutilizables
- *
+ * <p>
  * +++++Las referencias a métodos siempre se apoyan en interfaces funcionales.+++++
  */
 public class MethodRef {
@@ -26,12 +27,12 @@ public class MethodRef {
      * por que de instancia, por que al recorrerse el arreglo internamente es una instancia de cada elemento String.
      */
     public void referenciarMetodoInstanciaObjetoArbitrario() {
-        String[] names = {"Angie", "Gómez", "Marín"};
+        String[] names = {"Angiewewewe", "Zarin", "Bomez"};
 
         /**
          * Ejemplo usando una clase anónima, Java7, manera tradicional.
          */
-        //
+
         /*Arrays.sort(names, new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
@@ -45,8 +46,8 @@ public class MethodRef {
         /**
          * Ejemplo usando una expresión Lambda Java8.
          */
-        /*Arrays.sort(names, (s1, s2) -> s1.compareToIgnoreCase(s2));
-        System.out.println(Arrays.toString(names));*/
+        //Arrays.sort(names, (s1,s2) -> s1.compareToIgnoreCase(s2));
+        //System.out.println(Arrays.toString(names));*/
 
         /**
          * Ejemplo usando la referencia a un método ::
@@ -54,8 +55,8 @@ public class MethodRef {
          * internamente el método compareToIgnoreCase ya sabe que debe comparar dos valores.
          */
 
-        Arrays.sort(names, String::compareToIgnoreCase);
-        System.out.println(Arrays.toString(names));
+        //Arrays.sort(names, String::compareToIgnoreCase);
+        //System.out.println(Arrays.toString(names));
     }
 
     /**
@@ -63,7 +64,7 @@ public class MethodRef {
      * la interfaz funcional tiene un único método saludar()
      * y se implementa con la expreasión
      * Operacion op = app :: referenciaMetodoInstanciaObjetoParticular; que esta a la derecha
-     * Java utiliza los metodos como si fueran parametros para poder implementar otros métodos.
+     * Java utiliza los métodos como si fueran parametros para poder implementar otros métodos.
      */
     public void referenciaMetodoInstanciaObjetoParticular() {
         System.out.println("Metodo Referido Instancia de un Objeto en Particular");
@@ -79,21 +80,23 @@ public class MethodRef {
                 return new Persona(id, name);
             }
         };
-        iper.crear(1, "angie");*/
+        Persona persona = iper.crear(1, "angieAnonima7");
+        System.out.println(persona.getId() + " - " + persona.getName());*/
+
 
         /**
          * Ejemplo usando implementación Lambda.
          */
-       /* IPersona iper2 = (x, y) -> (new Persona(x, y));
-        Persona per = iper2.crear(1, "angie");
-        System.out.println(per.getId() + " - " + per.getName()); */
+        /*IPersona iper2 = (x, y) -> (new Persona(x, y));
+        Persona per = iper2.crear(1, "angieLambda");
+        System.out.println(per.getId() + " - " + per.getName());*/
 
         /**
          * Usando la referencia a métodos, que quiero?
          * devolver una nueva instancia, de quien? de Persona.
          */
-        IPersona iper3 = Persona :: new;
-        Persona per = iper3.crear(1, "angie");
+        IPersona iper3 = Persona::new;
+        Persona per = iper3.crear(1, "angieReferenciaMetodos");
         System.out.println(per.getId() + " - " + per.getName());
     }
 
