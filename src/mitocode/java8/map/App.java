@@ -15,7 +15,7 @@ public class App {
         map.put(1, "Angie");
         map.put(2, "Maria");
         map.put(3, "Gomez");
-        map.put(4, "Marin");
+        map.put(4, "");
     }
 
     /**
@@ -77,7 +77,7 @@ public class App {
     public void recolectar() {
         Map<Integer, String> mapaRecolectado = map.entrySet().stream()
                 .filter(e -> e.getValue().contains("Ma"))
-                .collect(Collectors.toMap(p -> p.getKey(), p -> p.getValue()));
+                .collect(Collectors.toMap(p -> p.getKey(), p -> p.getValue()));//Collect contiene Collectors y este un método toMap que convierte los elementos de un map a tipo Map.
         mapaRecolectado.forEach((k, v) -> System.out.println("Key: " + k + "Value: " + v));
     }
 
